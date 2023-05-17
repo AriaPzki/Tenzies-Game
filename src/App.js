@@ -13,17 +13,6 @@ export default function App() {
   const [timerStart, setTimerStart] = React.useState(false);
   const [timerStop, setTimerStop] = React.useState(false);
 
-  //React.useEffect(() => {
-  //let interValid = null;
-  //if(!tenzies){
-  //interValid = setInterval(() => {
-  //setTime(prevState => prevState += 1)
-  //} , 1000)
-  //}else {
-  //clearInterval(interValid)
-  //}
-  //},[tenzies])
-
   const dieElements = dice.map((die) => {
     return (
       <Die
@@ -88,10 +77,10 @@ export default function App() {
         Roll until all dice are the same. Click each die to freeze it at its
         current value between rolls.
       </p>
-      <div className="timer">
+      {/* <div className="timer">
         {minutes < 10 ? `0${minutes}` : minutes}:
         {seconds < 10 ? `0${seconds}` : seconds}
-      </div>
+      </div> */}
       <div className="dice-container">{dieElements}</div>
       <button className="btnRoll" onClick={rollDice}>
         {tenzies ? "New Game" : "Roll"}
