@@ -69,5 +69,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-Copyright
+## Copyright
+
 FreeCodeCamp.org owns the project's copyrights. This code was created using the "React Course: Beginner's Tutorial for React JavaScript Library [2022]" instruction, which has the YouTube URL "https://www.youtube.com/watch?v=bMknfKXIFA8". The Head of Education at Scrimba, Mr. Bob Ziroll, is the tutor for this lesson. I am really grateful to him for this wonderful lesson.
